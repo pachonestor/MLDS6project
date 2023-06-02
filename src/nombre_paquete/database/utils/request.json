@@ -1,0 +1,27 @@
+{
+    "filters":{
+        "op":"and",
+        "content":[
+            {
+                "op":"in",
+                "content":{
+                    "field":"cases.submitter_id",
+                    "value":[
+                        "case_id"
+                    ]
+                }
+            },
+            {
+                "op":"=",
+                "content":{
+                    "field":"Filter",
+                    "value":"filter_1"
+                }
+
+            }
+        ]
+    },
+    "format":"json",
+    "fields":"file_id,file_name",
+    "size":"1000"
+}
