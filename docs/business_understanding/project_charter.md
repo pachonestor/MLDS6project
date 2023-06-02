@@ -38,28 +38,27 @@ Para el desarrollo del proyecto se replicará la línea base presentada por  X
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+En el siguiente diagrama se muestra la metodología usada
+![methods](images/metodo.png)
 
 ## Cronograma
 
-| Etapa | Duración Estimada | Fechas |
+| Etapa | Duración Estimada |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Etapa 1 | 2 semanas | del 1 de juanio al 15 de junio |
+| Etapa 2 | 2 semanas | del 15 de junio al 30 de junio |
+| Etapa 3 | 2 semanas | del 30 de junio al 15 de julio |
+
 
 Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Juan Sebastaian Malagón Torres.
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+![presupuesto](images/presupuesto.png)
 
 ## Stakeholders
 
