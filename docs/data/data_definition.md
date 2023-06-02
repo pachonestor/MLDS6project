@@ -2,7 +2,7 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+Los datos son descargados directos de la base de datos del TCGA usando su API GDC (Documentación disponible en: https://gdc.cancer.gov/developers/gdc-application-programming-interface-api ). 
 
 ## Especificación de los scripts para la carga de datos
 
