@@ -22,12 +22,19 @@ En la siguiente imagen se puede observar los datos presentes para cada caso:
 
 - **Descripción de los resultados esperados:**
 
-aaa
-- [Criterios de éxito del proyecto]
+Se espera el despliegue de dos servicios, uno que permita pre-procesar las imágenes histopatologías y otro que permita realizar estimación de tipo tiempo-evento empleando la representación obtenida por el servicio anterior.
+
+- **Criterios de éxito del proyecto**
+
+Para que el proyecto sea culminado con éxito se requiere:
+
+    - Un modelo que supere el rendimiento aleatorio en el índice de concordancia.
+    - Un servicio que procese las imágenes histopatologicas.
+    - Un Servicio que permita hacer inferencias en base de las imagenes procesadas.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+Para el desarrollo del proyecto se replicará la línea base presentada por  Xinliang Zhu (disponible: https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhu_WSISA_Making_Survival_CVPR_2017_paper.pdf), por lo cual no se realizara una optimización del modelo ni de sus hiperparamteros.
 
 ## Metodología
 
