@@ -18,7 +18,7 @@ Para el desarrollo del proyecto se utilizará el conjunto de datos reportado en 
 
 En la siguiente imagen se puede observar los datos presentes para cada caso:
 
-![My Image](images/my-image.jpg)
+![My Image](MLDS6project/docs/business_understanding/images/tcga example.png)
 
 - [Descripción de los resultados esperados]
 - [Criterios de éxito del proyecto]
