@@ -18,7 +18,7 @@ Para el desarrollo del proyecto se utilizará el conjunto de datos reportado en 
 
 En la siguiente imagen se puede observar los datos presentes para cada caso:
 
-![Screenshot](./images/tcga example.png)
+![My Image](images/my-image.jpg)
 
 - [Descripción de los resultados esperados]
 - [Criterios de éxito del proyecto]
