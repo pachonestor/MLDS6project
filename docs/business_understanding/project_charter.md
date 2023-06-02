@@ -43,7 +43,7 @@ En el siguiente diagrama se muestra la metodología usada
 
 ## Cronograma
 
-| Etapa | Duración Estimada |
+| Etapa | Duración Estimada | fechas |
 |------|---------|-------|
 | Etapa 1 | 2 semanas | del 1 de juanio al 15 de junio |
 | Etapa 2 | 2 semanas | del 15 de junio al 30 de junio |
