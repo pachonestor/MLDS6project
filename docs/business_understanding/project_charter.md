@@ -1,8 +1,8 @@
 # Project Charter - Entendimiento del Negocio
 
-## Nombre del Proyecto
+## Clasificador de Géneros de Películas
 
-Estimación de tiempo de sobrevivencia en casos de cáncer de seno triple negativo.
+Estimación de  la probabilidad de que dada una sipnosis de una pelicula, esta pertenezca a un cierto rango de géneros cinematograficos .
 
 ## Objetivo del Proyecto
 
