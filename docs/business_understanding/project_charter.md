@@ -2,27 +2,26 @@
 
 ## Clasificador de Géneros de Películas
 
-Estimación de  la probabilidad de que dada una sipnosis de una pelicula, esta pertenezca a un cierto rango de géneros cinematograficos .
+Estimación de  la probabilidad de que dado el resumen de una película, esta pertenezca 24 de géneros cinematograficos .
 
 ## Objetivo del Proyecto
 
-El objetivo de este proyecto es entrenar, validar y desplegar un modelo de *deep learning* que use como insumo imágenes de histopatología de paciente con cáncer de seno triple-negativo confirmado para calcular su curva de sobrevivencia.
-
+El objetivo de este proyecto es entrenar, validar y desplegar un modelo de *deep learning* que use como insumo el resumen de una película para calcular la probabilidad por cada genéro del cine de que la película sea clasificada en ese genéro.
 ## Alcance del Proyecto
 
 ### Incluye:
 
 - **Descripción de los datos disponibles:**
 
-Para el desarrollo del proyecto se utilizará el conjunto de datos reportado en *The cnacer genome atlas* (TCGA), disponible en: https://portal.gdc.cancer.gov.  Cuenta con un total de 9121 casos, donde se incluye tiempos hasta la falla, indicador de evento e imágenes histopatologicas en múltiples  amplitudes ópticas en formato SVS.
+Para el desarrollo del proyecto se utilizará el conjunto de datos reportado en el paper https://arxiv.org/abs/1702.01992 hecho por el profesor Fabio González, Ph.D. y a su alumno John Arevalo. Este dataset es un archivo plano csv que cuenta con 7895 registros donde se incluye el año de publicación de la película, su título y el resumen de la trama.
 
 En la siguiente imagen se puede observar los datos presentes para cada caso:
 
-![tcga_example](images/tcga_example.png)
+![peliculas1](images/peliculas1.png)
 
 - **Descripción de los resultados esperados:**
 
-Se espera el despliegue de dos servicios, uno que permita pre-procesar las imágenes histopatologías y otro que permita realizar estimación de tipo tiempo-evento empleando la representación obtenida por el servicio anterior.
+Se espera el despliegue de dos artefactos, el primero  son la gráficas de la metricas de error de predicción por cada genéro cinematografico y el segundo el despliegue de un servicio que dado el resumenn de una película genere una lista de 24 valores entre 0 y 1 que suma sea 1 que se interprete como la probabilidad de que la película sea clasificada en ese genéro.
 
 - **Criterios de éxito del proyecto**
 
