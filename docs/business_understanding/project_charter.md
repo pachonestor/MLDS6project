@@ -21,39 +21,32 @@ En la siguiente imagen se puede observar los datos presentes para cada caso:
 
 - **Descripción de los resultados esperados:**
 
-Se espera el despliegue de dos artefactos, el primero  son la gráficas de la metricas de error de predicción por cada genéro cinematografico y el segundo el despliegue de un servicio que dado el resumenn de una película genere una lista de 24 valores entre 0 y 1 que suma sea 1 que se interprete como la probabilidad de que la película sea clasificada en ese genéro.
+Se espera el despliegue de dos artefactos, el primero  son la gráficas de la metricas de error de predicción por cada genéro cinematografico y el segundo el despliegue de un servicio que dado el resumen de una película genere una lista de 24 valores entre 0 y 1 que suma sea 1 que se interprete como la probabilidad de que la película sea clasificada en ese genéro.
 
 - **Criterios de éxito del proyecto**
 
 Para que el proyecto sea culminado con éxito se requiere:
 
-    - Un modelo que supere el rendimiento aleatorio en el índice de concordancia.
-    - Un servicio que procese las imágenes histopatologicas.
-    - Un Servicio que permita hacer inferencias en base de las imagenes procesadas.
-
-### Excluye:
-
-Para el desarrollo del proyecto se replicará la línea base presentada por  Xinliang Zhu (disponible: https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhu_WSISA_Making_Survival_CVPR_2017_paper.pdf), por lo cual no se realizara una optimización del modelo ni de sus hiperparamteros.
+    - Un modelo que supere el rendimiento aleatorio con la metrica ROC_AUC macro average, es decir mayor a 0.5.
+    - Un servicio que procese resúmenesm de películas y que entregue la probabilidad qde clasificar la película en 24 posibles genéros.
 
 ## Metodología
 
 En el siguiente diagrama se muestra la metodología usada
-![methods](images/metodo.png)
+![Workplan](images/Workplan.png)
 
 ## Cronograma
 
 | Etapa | Duración Estimada | fechas |
 |------|---------|-------|
-| Etapa 1 | 2 semanas | del 1 de juanio al 15 de junio |
-| Etapa 2 | 2 semanas | del 15 de junio al 30 de junio |
-| Etapa 3 | 2 semanas | del 30 de junio al 15 de julio |
+| Etapa 1 | 10 días | del 1 de junio al 10 de junio  |
+| Etapa 2 | 10 días | del 10 de junio al 20 de junio |
+| Etapa 3 | 10 días | del 20 de junio al 30 de julio |
 
-
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- Juan Sebastaian Malagón Torres.
+- Néstor Andrés Pachón Bermeo.
 
 ## Presupuesto
 
