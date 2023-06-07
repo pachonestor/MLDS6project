@@ -2,12 +2,11 @@
 
 ## Base de datos 1
 
-**Agregar una descripción de la tabla o fuente de datos.
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| time | Contiene los tiempos hasta que ocurre el evento de interés (muerte/sano/censura). | int | 0 - 3000 | TCGA-BRCA |
-| event | Contiene el indicador de muerte (1), sano (2), censura (0). | int | [0,1,2] | TCGA-BRCA |
+| Título | Título de la película | str | textos en inglés | (https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip) |
+| year | Contiene el año de publicación de la película | int | 19894 - 2013 | [TCGA-BRCA](https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip) |
 
 
 - **Variable**: nombre de la variable.
