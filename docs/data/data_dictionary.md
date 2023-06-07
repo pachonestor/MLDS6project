@@ -6,7 +6,7 @@
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
 | Título | Título de la película | str | textos en inglés | https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip |
-| year | Contiene el año de publicación de la película | int | 19894 - 2013 | https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip |
+| year | Contiene el año de publicación de la película | int | 1984 - 2015 | https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip |
 | plot | Contiene resumen de la trama de la película | str | textos en inglés | https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip |
 | rating | Contiene el rating de la película | float | 0.0- 10.0 | https://github.com/albahnsen/MIAD_ML_and_NLP/raw/main/datasets/dataTraining.zip |
 - **Variable**: nombre de la variable.
