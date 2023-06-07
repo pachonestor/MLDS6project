@@ -28,7 +28,7 @@ Se espera el despliegue de dos artefactos, el primero  son la gráficas de la me
 Para que el proyecto sea culminado con éxito se requiere:
 
     - Un modelo que supere el rendimiento aleatorio con la metrica ROC_AUC macro average, es decir mayor a 0.5.
-    - Un servicio que procese resúmenesm de películas y que entregue la probabilidad qde clasificar la película en 24 posibles genéros.
+    - Un servicio que procese resúmenes de películas y que entregue la probabilidad qde clasificar la película en 24 posibles genéros.
 
 ## Metodología
 
@@ -54,9 +54,10 @@ En el siguiente diagrama se muestra la metodología usada
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
+- Pepito Perez, Director de automatización y digitalización de Cine Colombia
+- Área de  automatización y digitalización de Cine Colombia.
 - [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+- Despliegue de un modelo de Deep Learning que automatice el etiquetado de géneros de peliculas
 
 ## Aprobaciones
 
