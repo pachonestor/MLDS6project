@@ -2,11 +2,11 @@
 
 ## Origen de los datos
 
-Los datos son descargados directos de la base de datos del TCGA usando su API GDC (Documentación disponible en: https://gdc.cancer.gov/developers/gdc-application-programming-interface-api ). 
+Los datos son descargados directo del repositorio de github del Alejandro Correa Bahnsen, PhD , ex profesor de la Universidad de los Andes, que a su vez fue proporcionada por el  profesor Fabio González, Ph.D. y a su alumno John Arevalo.
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+- [ ] El script de carga se encuentra en: 'scripts/data_acquisition/Carga_datos.ipynb'. 
 
 ## Referencias a rutas o bases de datos origen y destino
 
