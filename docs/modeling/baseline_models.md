@@ -2,7 +2,7 @@
 
 ## Descripción del modelo
 
-El de base es un Random Forest, que toma como variables de entrada la matriz generada por el embedding TfidfVectorizer del las reseñas de la trama de peliculas y como salida un vector de los 23 géneros de cinemátograficos en formato dummies
+Como modelo base se toma una regresion logistica que toma como variables de entrada la matriz generada por el embedding TfidfVectorizer del las reseñas de la trama de peliculas y como salida un vector de los 23 géneros de cinemátograficos en formato dummies
 
 ## Variables de entrada
 
@@ -26,20 +26,27 @@ La curva ROC representa la tasa de verdaderos positivos (TPR) en función de la 
 
 En el enfoque "average macro", todas las clases tienen el mismo peso y se promedia su rendimiento individual. Esto es útil cuando se desea evaluar el rendimiento general del modelo en todas las clases de manera equitativa, sin importar si algunas clases tienen más muestras que otras. Sin embargo, es importante tener en cuenta que el enfoque "average macro" puede ocultar desequilibrios en el rendimiento de las clases individuales.
 
-### Resultados de evaluación
-
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
 
 ## Análisis de los resultados
 
-Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
+| metrica | valor  |
+|------|---------|
+| ROC_AUC AVERAGE OVR | 0.767 | 
+## Análisis de los resultados
+
+La teoria sobre el modelo dice que entre más próximo este el valor del área bajo la curva a 1, mejor sera el clasificador en distinguir las clase.
+A modo de guía para interpretar las curvas ROC se han establecido los siguientes intervalos para los valores de AUC:
+- [0.5], sería en nuestro caso como seleccionar el género de la pelicula al azar, como  sacar el género de una bolsa de papelitos a ciegas.
+- [0.5  0.6) es malo
+- [0.6 a 0.75) es regular
+- [0.75 a 0.9) es bueno
+- [0.9 a 0.97) es muy bueno
+- [0.97 a 1) es excelente
 
 ## Conclusiones
 
-Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+Asi nuestro clasificador base al tener un roc_auc de 0.76 alcanza a clasificar como bueno.
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
-
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
+https://es.wikipedia.org/wiki/Curva_ROC)https://es.wikipedia.org/wiki/Curva_ROC
