@@ -2,24 +2,30 @@
 
 ## Resumen Ejecutivo
 
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
-
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+Debido a que este problema tiene como variables de entrada un cadena string de lenguaje natural y como salida varias clases, se necesita un modelo capaz de realizar abstracciones del texto y que a la vez puede identificar patrones en los texto y relacionarlo con varias  clases a la vez. Por eso se escogio como modelo final un red neuronal de 2 capas, ya que según el estado las redes neuronales,son las más usadas cuando se usan embedding como TfidfVectorizer, si se cuenta en gpu, son bastante rápidas y permiten mayor abstracción de los datos con el fin de clasificar un texto de la trama de una película de la manera más precisa posible y equitativa posible.
+
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+Como respuesta a este problema se realizan varios cambios al modelo original:
+
+Se decide aumentar la complejidad del modelo empleando una red neuronal multicapa, con una capa de entrada 280 neuronas; igual a la cantidad de palabras obtenidas por el embedding, 2 neuronas densas, una tras la otra que, despues de un procesos de optimización para encontrar los mejores párametros, entre ellos se tiene la que  cantidad de neuronas se encontro que la priera capa  interna debe ser 192 y de la segunda 64, una tasa se aprenizaje de 0.01.
+
+Al igual que el modelo base se decidio quitar el género de News ya que solo tiene 7 películas clasificadas con este género
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+![trainacc](images/trainacc.png)
+![trainloss](images/trainloss.png)
+![valacc](images/valacc.png)
+![valloss](images/valloss.png)
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+En con este modelo podemos ver que no se puede mejorar significativamente el ROC AUC con average macro y calculado una clase versus todas ya que el modelo base da un rendimiento de 0.767 y la red neuronal da  0.773, lo cual es una diferencia muy pequeña para el cambio de complejidad del modelo, tan solo de 0.6.
 
-## Referencias
+Por otro lado, el accuracy de validación llega a su pico maxímo muy rápido, lo que significa que el modleo se sobre ajusta muy rápido y tocaría cambiar de embedding por uno más grande y robusto o hacer más complejo la red neuronal con capas de neuronas más complejas
 
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+
