@@ -22,10 +22,9 @@
 
 ## Documentación del despliegue
 
-- **Instrucciones de instalación:** Debe considerar la instalación de los paquetes asociados a spacy como setuptools y wheel, así como el pipeline en_core_web_sm. El resto de librerías mencionadas puede obtenerse por medio de pip. En la carpeta de de deployment estará un archivo yml con todas  las líbrerias del ambiente de anaconda
+- **Instrucciones de instalación:** Debe considerar la instalación de los paquetes asociados a spacy como setuptools y wheel, así como el pipeline en_core_web_sm. El resto de librerías mencionadas puede obtenerse por medio de pip. En la carpeta de de deployment estará un archivo yml o un txt con todas  las líbrerias del ambiente de anaconda
 - **Instrucciones de configuración:** La mayoría de hiperparametros del modelo han sido explorados previamente y por consiguiente no se recomienda ninguna modificación sobre estos.
 - **Instrucciones de uso:** El despliegue del modelo consta de dos pasos
     - *Despliegue del servidor:* Se pone en producción la aplicación creada, para ello ejecutar.
           - uvicorn {main_file_path}:app --reload 
-    - *Apertura de puertos:* Para poder tener acceso a nuestro servicio desde cualquier punto debemos abrir el 8000, no obstante esto se encuentran normalmente restringidos por nuestro operado de internet, para evadir dichas limitaciones usamos el servicio de ngrok.
-          - ./MLDS6project/src/nombre_paquete/preprocessing/ngrok http 8000
+    - *Ejecución:* Una vez ejecutado uvicorn, se dispones a cargar un archivo json con  llave texts y  dentro de esa llave debe ir  el texto de  la trama de la película.
