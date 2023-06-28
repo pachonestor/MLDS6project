@@ -27,4 +27,4 @@
 - **Instrucciones de uso:** El despliegue del modelo consta de dos pasos
     - *Despliegue del servidor:* Se pone en producción la aplicación creada, para ello ejecutar.
           - uvicorn {main_file_path}:app --reload 
-    - *Ejecución:* Una vez ejecutado uvicorn, se dispones a cargar un archivo json con  llave texts y  dentro de esa llave debe ir  el texto de  la trama de la película.
+    - *Ejecución:* Una vez ejecutado uvicorn, se dispone a cargar un archivo json con  llave texts y  dentro de esa llave debe ir  el texto de  la trama de la película.
