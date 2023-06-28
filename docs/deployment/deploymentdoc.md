@@ -2,14 +2,15 @@
 
 ## Infraestructura
 
-- **Nombre del modelo:** Regresión de riesgos competitivos basada en el modelo de Cox.
-- **Plataforma de despliegue:** El modelo será desplegado en un servidor local usando ngrok como método de apretura de puertos.
+- **Nombre del modelo:** Clasificación de géneros cinematograficos según la trama de una película.
+- **Plataforma de despliegue:** El modelo será desplegado en un servidor local usando uvicorn como método de apretura de puertos.
 - **Requisitos técnicos:** 
-    - *versión de Python:* python 3.11.3
-    - *Librerias:* fastapi(0.98.0), json(2.0.9), numpy(1.24.3), tensorflow(2.12.0),  openslie(1.2.0), skimage(0.21.0), tensorflow_probability(0.20.1), concurrent, sys, tempfile
-    - *Software:* Linux base OS (Manjaro Linux X86_64), kernel 6.1.31-MANJARO
-    - *Hardware:* CPU: AMD Ryzen 5 5600X (12) @ 4.200GHz, GPU: NVIDIA GeForce RTX 3060, RAM: 31976 MiB
-- **Requisitos de seguridad:** Al tratarse de datos previamente anonimizados bajo protocolo médico no es necesaria la encriptación.
+    - *versión de Python:* python 3.10.11
+    - *Librerias:* fastapi(0.98.0), fastjsonschema(2.15.3), jsonschema(4.5.1),python-lsp-jsonrpc(1.0.0), ujson(5.3.0), numpy(1.23.5), tensorflow(2.12.0),tensorflow-estimator(2.12.0),
+      joblib(1.2.0), keras(2.12.0), nltk(3.8.1), pandas(2.0.2), python-multipart(0.0.6), regex(2023.6.3), scikit-learn(1.2.2),spacy(3.5.3), unidecode(1.3.6), uvicorn(0.22.0), tempfile
+    - *Software:* Ubuntu 16.04.7 LTS(X86_64)
+    - *Hardware:* CPU: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, GPU: None, RAM: 5,7 GiB
+- **Requisitos de seguridad:** Al tratarse de datos de resumenes de películas que están disponibles al  público no hay necesidad
 - **Diagrama de arquitectura:**
 
 ![tcga_example](images/Arquitectura.png)
