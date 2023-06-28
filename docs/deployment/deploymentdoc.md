@@ -10,7 +10,7 @@
       joblib(1.2.0), keras(2.12.0), nltk(3.8.1), pandas(2.0.2), python-multipart(0.0.6), regex(2023.6.3), scikit-learn(1.2.2),spacy(3.5.3), unidecode(1.3.6), uvicorn(0.22.0), tempfile
     - *Software:* Ubuntu 16.04.7 LTS(X86_64)
     - *Hardware:* CPU: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, GPU: None, RAM: 5,7 GiB
-- **Requisitos de seguridad:** Al tratarse de datos de resumenes de películas que están disponibles al  público, no hay necesidad
+- **Requisitos de seguridad:** Al tratarse de datos de resumenes de películas que están disponibles al  público, no hay necesidad de la encriptación
 - **Diagrama de arquitectura:**
 
 ![tcga_example](images/Arquitectura.png)
@@ -22,7 +22,7 @@
 
 ## Documentación del despliegue
 
-- **Instrucciones de instalación:** Debe considerar la instalación de los paquetes asociados a spacy como setuptools y wheel, así como el pipeline en_core_web_sm. El resto de librerías mencionadas puede obtenerse por medio de pip. En la carpeta de de deployment estará un archivo yml o un txt con todas  las líbrerias del ambiente de anaconda
+- **Instrucciones de instalación:** Debe considerar la instalación de los paquetes asociados a spacy como setuptools y wheel, así como el pipeline en_core_web_sm. No es necesario tener tarjeta gráfica para correr la aplicación, por ende no se debe instalar las libreria de NVIDIA o CUDA, solo tensorflow. El resto de librerías mencionadas puede obtenerse por medio de pip. En la carpeta de de deployment estará un archivo yml o un txt con todas  las líbrerias del ambiente de anaconda
 - **Instrucciones de configuración:** La mayoría de hiperparametros del modelo han sido explorados previamente y por consiguiente no se recomienda ninguna modificación sobre estos.
 - **Instrucciones de uso:** El despliegue del modelo consta de dos pasos
     - *Despliegue del servidor:* Se pone en producción la aplicación creada, para ello ejecutar.
