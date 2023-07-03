@@ -18,9 +18,14 @@ La variable objetivo en este caso es categórica, y son los géneros cinematogra
 
 ![hist_gen](images/hist_gen.png) 
 
-También, se puede ver que en a cada película se le asocian 2.7 géneros y qe como máximo se le asocian 9.
+También, se puede ver que en a cada película se le asocian 2.7 géneros y que como máximo se le asocian 9.
 
 ![hist_gen_film](images/hist_gen_film.png) 
+
+Así mismo, podemos ver la frecuencia con la que 2 géneros aparecen en una misma película.
+
+
+![heatmap_gen_film](images/heatmap_gen_film.png) 
 
 ## Variables individuales
 
@@ -41,3 +46,8 @@ Se observa claramente que se reduce en 61% la cantidad de palabras por resumen, 
 En esta sección debido a que es la relación de texto con categórias, se utilizará un word cloud para poder identificar facilmente cuales son las palabras más relevantes para cada género.
 
 ![wordcloud](images/wordcloud.png) 
+
+Por otro lado, realizando una técnica de reducción de dimensionalidad como TruncatedSVD, podemos echar un vistazo a la distribución de los géneros de  palabras según el la técnica de extracción de características TfidfVectorizer.
+
+| ![trunc1](images/trunc1.png)  | ![trunc2](images/trunc2.png) | 
+
