@@ -27,8 +27,8 @@ Se espera el despliegue de dos artefactos, el primero  son la gráficas de la me
 
 Para que el proyecto sea culminado con éxito se requiere:
 
-    - Un modelo que supere el rendimiento aleatorio con la metrica ROC_AUC macro average, es decir mayor a 0.5.
-    - Un servicio que procese resúmenes de películas y que entregue la probabilidad qde clasificar la película en 24 posibles genéros.
+    - Un modelo que supere el rendimiento aleatorio con la metrica ROC_AUC macro average ovr, es decir mayor a 0.5.
+    - Un servicio que procese resúmenes de películas y que entregue la probabilidad qde clasificar la película en 23 posibles genéros.
 
 ## Metodología
 
