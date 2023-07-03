@@ -25,7 +25,9 @@ También, se puede ver que en a cada película se le asocian 2.7 géneros y que 
 Así mismo, podemos ver la frecuencia con la que 2 géneros aparecen en una misma película.
 
 
-![heatmap_gen_film](images/heatmap_gen_film.png) 
+![heatmap_gen](images/heatmap_gen.png) 
+
+Es claro que muchos todos los géneros se encuentran mencionados en una misma película varias veces sin embargo, el género menos frecuente, News, con solo 7  menciones en todas las peliculas, siempre va acompañado del género Documentary.
 
 ## Variables individuales
 
@@ -51,3 +53,4 @@ Por otro lado, realizando una técnica de reducción de dimensionalidad como Tru
 
 | ![trunc1](images/trunc1.png)  | ![trunc2](images/trunc2.png) | 
 
+Claramente, los géneros de no son linealmente separables.
