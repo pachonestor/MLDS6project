@@ -22,10 +22,6 @@ También, se puede ver que en a cada película se le asocian 2.7 géneros y qe c
 
 ![hist_gen_film](images/hist_gen_film.png) 
 
-Así mismo, se evidencia de que las variables categóricas no evidencian una gran correlación entres sí, como se muestra en la siguiente gráfica.
-
-![correlation](images/correlation.png) 
-
 ## Variables individuales
 
 La variable predictora es solo una, el plot de cada película sin embargo, para poder realizar un modelo de clasificación se debe limpiar el texto de palabras o elementos que no aporten a la predicción de los géneros. Despúes, mediante el algoritmo de embedding de sklearn TfidfVectorizer, convertimos el texto en una variable de texto a una matriz númerica que permite trabajar con modelos de deep learning.
