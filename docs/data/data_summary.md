@@ -53,4 +53,4 @@ Por otro lado, realizando una técnica de reducción de dimensionalidad como Tru
 
 | ![trunc1](images/trunc1.png)  | ![trunc2](images/trunc2.png) | 
 
-Claramente, los géneros de no son linealmente separables.
+Claramente, los géneros no son linealmente separables.
