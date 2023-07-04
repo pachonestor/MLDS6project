@@ -12,7 +12,7 @@
 
 
 
--  Clase   | Modelo Base   | Modelo Final  |
+|  Clase   | Modelo Base   | Modelo Final  |
 | -------- | ------------- | ------------- |
 | Drama    | 0.09          | 0.12          |
 | Comedia  | 0.08          | 0.05          |
