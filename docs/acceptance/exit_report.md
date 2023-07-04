@@ -22,6 +22,9 @@
 | Crimen   | 0.20          | 0.42          |
 
 
+| ![base_class_report](images/base_class_report.png)  | ![base_class_report](images/base_class_report.png) | 
+
+
   
 
 ## Lecciones aprendidas
