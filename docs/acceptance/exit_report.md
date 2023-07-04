@@ -1,14 +1,28 @@
-# Informe de salida
+ # Informe de salida
 
 ## Resumen Ejecutivo
 
-Este informe describe los resultados del proyecto de machine learning y presenta los principales logros y lecciones aprendidas durante el proceso.
-
 ## Resultados del proyecto
 
-- Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
-- Evaluación del modelo final y comparación con el modelo base.
-- Descripción de los resultados y su relevancia para el negocio.
+- En este proyecto se logro comprender la base de datos de la películas y extraer las características de la trama; con ellas generar 2 modelos de clasificación que entreguen la probabilidad de que según la trama de una película se logre dar porcentajes de que esa película pertenezca a ese género cinematografico. El modelo base fue una regresión logística y el modelo final fue una red neuronal. Además, se hizo un despliegue mediante FastAPI del modelo de clasificación, el cual se puede desplegar local medainte uvicorn e instalando ciertas librerias. Este despliegue recibe un archivo json con la trama de la película y entrega las probabilidades de que la trama pertezca a 23 géneros cinematograficos.
+  
+- En cuanto desempeño, el modelo base tiene roc auc con promedio macro  y multiclase uno vs el resto de clases puntaje de 0.767 mientras que el modelo final un puntaje de 0.805. Cabe resaltar que para la evaluación de ambos modelos se quito el généro de News por ser muy pequeño, ya que solo contaba con 7 instancias y  además cada vez que aparecia en una clase también se encontraba el género Documentary, por lo que no se perdia información relevante del modelo al quitarlo.
+  
+- Así mismo, como el roc auc fue mejor en la red neuronal que la regresión logística, tambíen lo fueron los F1 score de cada una de las clases ya que la clase que mejor se clasificó en la regresión fue la Documentary con un F1 Score de 0.29 y la peor fue Short con 0.03, mientras que la red neuronal tuvo como mejor puntaje el género de Horror con 0.36 y como peor puntaje Short con 0.0. Por otro lado, las clases más representativas tuvieron mejor puntaje con la red neuronal que con la regresión logística excepción de la Comedio donde fue ligeramente deficiente y esto se muestra en la siguiente tabla.
+
+
+
+-  Clase   | Modelo Base   | Modelo Final  |
+| -------- | ------------- | ------------- |
+| Drama    | 0.09          | 0.12          |
+| Comedia  | 0.08          | 0.05          |
+| Action   | 0.11          | 0.29          |
+| Romance  | 0.26          | 0.31          |
+| Thriller | 0.04          | 0.24          |
+| Crimen   | 0.20          | 0.42          |
+
+
+  
 
 ## Lecciones aprendidas
 
