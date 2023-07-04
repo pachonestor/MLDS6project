@@ -1,4 +1,4 @@
- # Informe de salida
+ gil # Informe de salida
 
 ## Resumen Ejecutivo
 
@@ -21,18 +21,18 @@
 
 ## Lecciones aprendidas
 
-- Identificación de los principales desafíos y obstáculos encontrados durante el proyecto.
-- Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
-- Recomendaciones para futuros proyectos de machine learning.
+- Los principales retos en este proyecto fueron 2, el problema de clasificación en sí, al ser de clases desbalanceadas, complico el entrenamiento de los modelos y la corta duración del proyecto impidio una investigación y búsqueda de modelos, preprocesamiento y embbeding más exhastiva.
+- Con respecto al modelamiento, se pudo haber hecho un análisis de cluster para agrupar varias clases en un grupos de significado similar, y con ello obtener mayor número de datos y clases ḿas balancedas haciendo más interpretable y fácil el entremaniento el modelo de clasificación.
 
 ## Impacto del proyecto
 
-- Descripción del impacto del modelo en el negocio o en la industria.
-- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
+- El modelo ayuda a automatizar el etiquetado de películas según el género al que pertenece haciendo más ágil la documentación de nuevas películas ahoprrando tiempo.
+- Se puede mejorar el modelo utílizando embeddings ya entrenados que sacan una representación más interpretativa de los datos.
+- Del mismo modo, se puede implementar la agrupación de clases con el fin de mejorar la precisión del modelo caracterizar mejor los géneros del cine.
 
 ## Conclusiones
 
-- Resumen de los resultados y principales logros del proyecto.
+- El modelo se puede desplegar en local, es útil
 - Conclusiones finales y recomendaciones para futuros proyectos.
 
 ## Agradecimientos
