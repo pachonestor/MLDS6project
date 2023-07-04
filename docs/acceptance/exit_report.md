@@ -14,7 +14,7 @@
 
 | Modelo Base   | Modelo Final  |
 | -------- | ------------- |
-| ![base_class_report](images/base_class_report.png)  | ![main_class_report](images/base_class_report.png) | 
+| ![base_class_report](images/base_class_report.png)  | ![main_class_report](images/main_class_report.png) | 
 
 
   
