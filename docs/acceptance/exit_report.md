@@ -8,7 +8,7 @@
   
 - En cuanto desempeño, el modelo base tiene roc auc con promedio macro  y multiclase uno vs el resto de clases puntaje de 0.767 mientras que el modelo final un puntaje de 0.805. Cabe resaltar que para la evaluación de ambos modelos se quito el généro de News por ser muy pequeño, ya que solo contaba con 7 instancias y  además cada vez que aparecia en una clase también se encontraba el género Documentary, por lo que no se perdia información relevante del modelo al quitarlo.
   
-- Así mismo, como el roc auc fue mejor en la red neuronal que la regresión logística, tambíen lo fueron los F1 score de cada una de las clases ya que la clase que mejor se clasificó en la regresión fue la Documentary con un F1 Score de 0.29 y la peor fue Short con 0.03, mientras que la red neuronal tuvo como mejor puntaje el género de Horror con 0.36 y como peor puntaje Short con 0.0. Por otro lado, las clases más representativas tuvieron mejor puntaje con la red neuronal que con la regresión logística excepción de la Comedio donde fue ligeramente deficiente y esto se muestra en la siguiente tabla.
+- Así mismo, como el roc auc fue mejor en la red neuronal que la regresión logística, tambíen lo fueron los F1 score de cada una de las clases ya que la clase que mejor se clasificó en la regresión fue la Documentary con un F1 Score de 0.29 y la peor fue Short con 0.03, mientras que la red neuronal tuvo como mejor puntaje el género de Sport con 0.41 y como peor puntaje Short con 0.0. Por otro lado, las clases más representativas tuvieron mejor puntaje con la red neuronal que con la regresión logística excepción de la Comedia donde fue ligeramente deficiente y esto se muestra en la siguiente tabla.
 
 
 
