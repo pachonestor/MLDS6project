@@ -12,17 +12,9 @@
 
 
 
-|  Clase   | Modelo Base   | Modelo Final  |
-| -------- | ------------- | ------------- |
-| Drama    | 0.09          | 0.12          |
-| Comedia  | 0.08          | 0.05          |
-| Action   | 0.11          | 0.29          |
-| Romance  | 0.26          | 0.31          |
-| Thriller | 0.04          | 0.24          |
-| Crimen   | 0.20          | 0.42          |
-
-
-| ![base_class_report](images/base_class_report.png)  | ![base_class_report](images/base_class_report.png) | 
+| Modelo Base   | Modelo Final  |
+| -------- | ------------- |
+| ![base_class_report](images/base_class_report.png)  | ![main_class_report](images/base_class_report.png) | 
 
 
   
