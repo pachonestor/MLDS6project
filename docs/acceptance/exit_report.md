@@ -21,7 +21,7 @@
 
 ## Lecciones aprendidas
 
-- El primer reto de este proyecto fue el problema de clasificación en sí, al ser de clases desbalanceadas, complico el entrenamiento de los modelos. Debido a esta dificultad se aprendio a colocar pesos según la frecuencia de cada clase y en el caso del modelo de red neuronal se desarrollo una función de costo hecha a medida apra un problema multiclase desbalanceado.
+- El primer reto de este proyecto fue el problema de clasificación en sí, al ser de clases desbalanceadas, complico el entrenamiento de los modelos. Debido a esta dificultad se aprendio a colocar pesos según la frecuencia de cada clase y en el caso del modelo de red neuronal se desarrollo una función de costo hecha a medida para un problema multiclase desbalanceado.
 - El segundo reto fue la corta duración del proyecto, esto impidio una investigación y búsqueda de modelos, preprocesamiento y embbeding más exhaustiva. Sin embargo, esto ayudo a buscar soluciones prácticas y rápidas de implemenatar con tal de satisfacer las demandas del cliente.
 
 
