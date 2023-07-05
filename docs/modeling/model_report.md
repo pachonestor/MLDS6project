@@ -17,10 +17,14 @@ Al igual que el modelo base se decidio quitar el género de News ya que solo tie
 
 ## Evaluación del Modelo
 
-![trainacc](images/trainacc.png)
-![trainloss](images/trainloss.png)
-![valacc](images/valacc.png)
-![valloss](images/valloss.png)
+### Emtrenamiento de la red neuronal
+
+![main_loss_acc](images/main_loss_acc.png)
+
+### Reporte de Clasificación
+
+![main_class_report](images/main_class_report.png)
+
 
 ## Conclusiones y Recomendaciones
 
