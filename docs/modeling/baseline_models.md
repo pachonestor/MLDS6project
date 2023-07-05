@@ -1,4 +1,4 @@
-# Reporte del Modelo Baseline
+ # Reporte del Modelo Baseline
 
 ## Descripción del modelo
 
@@ -52,10 +52,15 @@ A modo de guía para interpretar las curvas ROC se han establecido los siguiente
 - [0.9 a 0.97) es muy bueno
 - [0.97 a 1) es excelente
 
+Respecto a reporte de clasificación se puede ver que en general se tiene mejor  recall que precisión, esto quiere decir que el algoritmo logra encontrar las clases que pertenecen a las películas, no lo hace de la manera más exacta, se equivoca mucho, da muchos  falsos positivos géneros. Basicamente predice muchas clases a la vez y se equivoca mucho. Esto es visible  con Biografías y que tiene 9% de precisión, pero 25% de recall, con Film-Noir con 5% de precisión y 40% de recall.
+  
+Los géneros más precisos son el Romance, Horror, Drama y Comedia; y los que tiene mejor balance entre  recall y precisión , es decir los de mejor F1-score son el Romance, Horror y los Documentales.
+
 ## Conclusiones
 
-Asi nuestro clasificador base al tener un roc_auc de 0.76 alcanza a clasificar como bueno.
-
+- El clasificador base al tener un roc_auc de 0.76 alcanza a clasificar como bueno.
+- El clasificador tiende a dar muchos falsos positivos y por eso se precisión es mala y su recally F1-score malos.
+- Solo en géneros  con palabras muy únicas en su clase se comporta bien, como el caso de Romance o el Horror.
 ## Referencias
 
 https://es.wikipedia.org/wiki/Curva_ROC)https://es.wikipedia.org/wiki/Curva_ROC
