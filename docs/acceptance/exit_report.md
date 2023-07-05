@@ -1,4 +1,4 @@
- gil # Informe de salida
+ # Informe de salida
 
 ## Resumen Ejecutivo
 
