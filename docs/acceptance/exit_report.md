@@ -36,7 +36,7 @@
 ## Conclusiones
 
 - Mirando los resultados de los reportes de clasificación, se puede ver que el modelo base tiene un desempeño pobre en cuanto al F1-score, mientras que el modelo final tiene mejores resultados en el F1 score, ya que supera la precisión  y es similar en el puntaje del recall al modelo base.
-- Se logro un puntaje de roc auc macro average ovr de 0.805 en el modelo final frente a un 0.767 del modelo base, es decir un 3.7 mejor. Cabe resaltar que al ser un problema multiclase de 23 catégorias sumamente desbalanceado, esto es un buen resultado, superando la medida del azar de 0.5.
+- Se logro un puntaje de roc auc macro average ovr de 0.805 en el modelo final frente a un 0.767 del modelo base, es decir un 0.037 mejor. Cabe resaltar que al ser un problema multiclase de 23 catégorias sumamente desbalanceado, esto es un buen resultado, superando la medida del azar de 0.5.
 - El modelo se puede desplegar en local o en la red, ya que todas sus librerías se puede instalar con pip y no es muy complejo su implementación,
 - El modelo es útil, confiable y fácil de usar.
   
