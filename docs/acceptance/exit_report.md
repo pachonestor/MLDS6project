@@ -29,8 +29,8 @@
 ## Impacto del proyecto
 
 - El modelo ayuda a automatizar el etiquetado de películas según el género al que pertenece haciendo más ágil la documentación de nuevas películas, su lanzamiento en medio para su publicidad, ahorrando tiempo y dinero.
-- Con respecto al modelamiento, se pudo haber hecho un análisis de cluster para agrupar varias clases en un grupos de significado similar, y con ello obtener mayor número de datos y clases ḿas balancedas haciendo más interpretable y fácil el entremaniento el modelo de clasificación.
-- Con más tiempo, se hubiese podido investigar, probar e implementar un embedding de procesamiento de lenguaje natural ya entrenado,, es decir que extrajera la semántica delos textos; esto hubiese permitido  mejorar la extracción de características y mejorar la precisión de los modelos.
+- Con respecto al modelamiento, se pudo haber hecho un análisis de cluster para agrupar varias clases en un grupos de significado similar, y con ello obtener mayor número de datos y clases ḿas balancedas haciendo más interpretable y fácil el entremaniento el modelo de clasificación
+- Con más tiempo, se hubiese podido investigar, probar e implementar un embedding de procesamiento de lenguaje natural ya entrenado es decir, que extrajera la semántica delos textos; esto hubiese permitido  mejorar la extracción de características y mejorar la precisión de los modelos.
 
 
 ## Conclusiones
