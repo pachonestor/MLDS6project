@@ -6,13 +6,15 @@ Como modelo base se toma una regresion logistica que toma como variables de entr
 
 ## Variables de entrada
 
-Son 280 variables extraidas del las tramas mediante el embedding TfidfVectorizer; las palabras que se selecciionaron de tal manera que estuviera en 95% de las tramas de las películas y como mínimo en un 3% de ellas.
+Son 280 variables extraidas del las tramas mediante el embedding TfidfVectorizer; las palabras que se seleccionaron de tal manera que estuviera en 95% de las tramas de las películas y como mínimo en un 3% de ellas.
 
-Además, para mejorar la precisión del modeloy debido a la presentación de los datos, se genero un registro por cada généro que tuviera la película,ya que hay películas con más de un género
+Además, para mejorar la precisión del modelo y debido a la presentación de los datos, se genero un registro por cada généro que tuviera la película,ya que hay películas con más de un género
 
 ## Variable objetivo
 
 Los genéros cinematográficos de las películas en formato multiclase.
+
+Cabe resaltar que se eliminó la clase News de la variable objetivo debido a que solo 7 instancias y  de que siempre que está acompañada por el género Documentary.
 
 ## Evaluación del modelo
 
@@ -26,12 +28,19 @@ La curva ROC representa la tasa de verdaderos positivos (TPR) en función de la 
 
 En el enfoque "average macro", todas las clases tienen el mismo peso y se promedia su rendimiento individual. Esto es útil cuando se desea evaluar el rendimiento general del modelo en todas las clases de manera equitativa, sin importar si algunas clases tienen más muestras que otras. Sin embargo, es importante tener en cuenta que el enfoque "average macro" puede ocultar desequilibrios en el rendimiento de las clases individuales.
 
+Finalmente el promedio se hace de sacar el ROC AUC para cada clase vs el resto de clases; esto se conoce como one vs resto o ovr.
+
 
 ## Análisis de los resultados
 
 | metrica | valor  |
 |------|---------|
 | ROC_AUC AVERAGE OVR | 0.767 | 
+
+### Reporte de Clasificación
+![base_class_report](images/base_class_report.png)
+
+
 ## Análisis de los resultados
 
 La teoria sobre el modelo dice que entre más próximo este el valor del área bajo la curva a 1, mejor sera el clasificador en distinguir las clase.
